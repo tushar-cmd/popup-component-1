@@ -40,11 +40,19 @@ function Bottom_bar()
     <div className='col-2 reverse_image'>
         <button
         onClick={() => {
+          setPopupOpen(!PopupOpen);
+          
+        }}>
+        <img src={reverse} className='swapss'></img>
+    </button> 
+        {/*<button
+        onClick={() => {
           setPopupOpen(true);
           
         }}>
         <img src={reverse} className='swapss'></img>
-        </button>   
+        </button>*/}   
+
 
     </div>
     
